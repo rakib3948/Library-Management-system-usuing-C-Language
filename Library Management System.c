@@ -668,28 +668,10 @@ void user_pass()
     }
 
 }
-void End()
-{
-    system("cls");
-
-    printf("\n\n\n\t\t\t###########################################################################");
-    printf("\n\t\t\t############                                                   ############");
-    printf("\n\t\t\t############                      The End                      ############");
-    printf("\n\t\t\t############                                                   ############");
-    printf("\n\t\t\t###########################################################################");
-
-    printf("\n\n\n\t\t\t\tName: Rakib Hasan\t\t\tId: 211-15-3948");
-    printf("\n\t\t\t\tName: Muksitul Islam\t\t\tId: 211-15-3962");
-    printf("\n\t\t\t\tName: Ashraf Haider Mini\t\tId: 211-15-3966");
-    printf("\n\t\t\t\tName: Md.Mahfuzur Rahman Paros\t\tId: 211-15-3944");
-
-    printf("\n\n\n\n\t\t\tThanks From The Deep of The Heart to Dr. Sheak Rashed Haider Noori Sir and\n\t\t\tKrishno Dey Sir.It Has Been a Great Pleasure to Continue This Course with \n\t\t\tYou.Your Teaching Method was Highly Suitable For All of Us.It Enriches Our\n\t\t\tKnowledge and Thus We Are Now Good at C.\n\n\n");
-}
 int main()
 {
     welcome_text();
     admin_user();
-    End();
     getch();
 }
 
